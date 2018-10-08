@@ -126,6 +126,7 @@ function quotes_scripts() {
 	wp_enqueue_style( 'menu',  get_template_directory_uri() .'/css/menu.css', array(), null, 'all' );
 	wp_enqueue_style( 'second-style',  get_template_directory_uri() .'/css/second-style.css', array(), null, 'all' );
 	wp_enqueue_style( 'quotes-navigation',  get_template_directory_uri() .'/css/navigation.css', array(), null, 'all' );
+	wp_enqueue_style( 'print', get_template_directory_uri() . '/css/print.css', array(), null, 'print');
 	wp_enqueue_style( 'responsive',  get_template_directory_uri() .'/css/responsive.css', array(), null, 'all' );
 
 	wp_enqueue_script( 'google_js', 'https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js', '', '' );
